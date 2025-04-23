@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Base 64 Encoder/Decoder</title>
+        <style>
+        #inputBox {
+            border: 1px solid #333;
+            padding: 8px 12px;
+        }
+
+        #outputBox {
+            border: 1px solid #333;
+            padding: 8px 12px;
+        }
+
+        #buttonEnc {
+            font-size: 20px;
+        }
+
+        #buttonDec {
+            font-size: 20px;
+        }
+        </style>
+    </head>
+
+    <body>
+        <h1 align='center'>Base 64 Encoder/Decoder</h1>
+        <p align='center'>ported from <a href=https://github.com/lauchimoon/base64>here</a></p>
+        <p align='center' style='font-size: 12px'>lauchimoon (C) 2025</p>
+
+        <div class='buttons' align='center'>
+            <button id='buttonEnc'>Encode</button>
+            <button id='buttonDec'>Decode</button>
+        </div>
+
+        <br>
+        <div class='io' align='center'>
+            <textarea id='inputBox' placeholder='text ...' style='font-size: 20px'></textarea>
+            <p>output: </p>
+            <div id='outputBox' style='font-size: 25px'>
+                <p class='outputText'>waiting for text ...</p>
+            </div>
+        </div>
+    </body>
+
+    <script src='index.js'></script>
+</html>
+
